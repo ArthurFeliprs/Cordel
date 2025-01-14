@@ -11,14 +11,16 @@
 }
 html, body{
     min-height: 100vh;
+    max-width: auto;
+   
 }
 div{
-    width:100%;
+    width:100vh;
     height: 100%;
 }
 header > h1 {
     font-family:var(--titulo) ;
-    font-size: 8em;
+    font-size: 8vw;
     text-align: center;
     color: white;
     background-color: black;
@@ -41,12 +43,14 @@ section{
     padding-top:10vh ;
     padding-bottom:10vh;
     line-height: 2em;
+    
 }
 .letra{
     font-family: var(--texto);
-    font-size: 3em;
+    font-size: 2.9vw;
     position: relative;
-    left: 30px;
+    padding-left: 10vh;
+   
 }
 #img01{
     background-image: url(../imagens/background001.jpg);
@@ -54,8 +58,9 @@ section{
     background-attachment: fixed;
     padding: 8em;
     position: relative;
-    height: 34em;
-    width: 100%;
+    height: 36vw;
+    width: auto;
+   background-position: right center;
 }
 #img02{
     background-image: url(../imagens/background002.jpg);
@@ -63,23 +68,28 @@ section{
     background-attachment: fixed;
     padding: 8em;
     position: relative;
-    height: 40em;
+    width: auto;
+    height: 36vw;
 }
 #quadro{
     color: white;
     background-color: rgba(0, 0, 0, 0.185);
-    height: 10em;
+    height: 34vw;
     width : 14em;
 position: absolute;
     left: 30px;
+    text-align: left;
+    
+   
 }
 #quadro2{
     color: white;
     background-color: rgba(0, 0, 0, 0.431);
-    height: auto;
+    height: 34vw;
     width : 12em;
     position: absolute;
     left: 30px;
+    text-align: left;
     
 }
 #final{
@@ -90,6 +100,7 @@ footer{
     font-size: 2em;
     color: white;
     text-align: center;
+    width: auto;
 }
 footer > a{
     text-decoration: none;
